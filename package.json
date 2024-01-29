@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "You can use the [editor on GitHub](https://github.com/kevjlope/kevjlope.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
   "source": "src/index.html",
-  "homepage": "https://kevinjlope.github.io/",
+  "homepage": "https://kevinjlope.github.io",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://kevinjlope.github.io/'",
+    "build-gh": "parcel build --public-url 'https://kevinjlope.github.io'",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --quiet",
     "predeploy": "npm run build-gh",
